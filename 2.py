@@ -2,10 +2,10 @@
 # 6-13 h: pghjchdxhnjhjd
 # 4-13 n: nnznntzznqnzbtzj
 
-minChar = 15
-maxChar = 16
-char = 'l'
-password = 'klfbblslvjclmlnqklvg'
+# minChar = 15
+# maxChar = 16
+# char = 'l'
+# password = 'klfbblslvjclmlnqklvg'
 
 
 
@@ -16,6 +16,9 @@ def valid_pass():
         if letter == char:
             charCounter = charCounter + 1
     print(charCounter)
-    return minChar <= charCounter <= maxChar
+    if charCounter >= minChar and charCounter <= maxChar:
+        return True
+    else:
+        return False
 
 valid_pass()
