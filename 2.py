@@ -1,24 +1,28 @@
-# 15-16 l: klfbblslvjclmlnqklvg
-# 6-13 h: pghjchdxhnjhjd
+lst = '15-16 l: klfbblslvjclmlnqklvg'
+# # 6-13 h: pghjchdxhnjhjd
 # 4-13 n: nnznntzznqnzbtzj
 
-# minChar = 15
-# maxChar = 16
-# char = 'l'
-# password = 'klfbblslvjclmlnqklvg'
 
+#split password
+# def valid_pass():
+# #def valid_pass(minChar, maxChar, char, password):
+#     charCounter = 0
+#     for letter in password:
+#         #print(letter)
+#         if letter == char:
+#             charCounter = charCounter + 1
+#     print(charCounter)
+#     if charCounter >= minChar and charCounter <= maxChar:
+#         return True
+#     else:
+#         return False
 
+# valid_pass()
 
-def valid_pass():
-    charCounter = 0
-    for letter in password:
-        #print(letter)
-        if letter == char:
-            charCounter = charCounter + 1
-    print(charCounter)
-    if charCounter >= minChar and charCounter <= maxChar:
-        return True
-    else:
-        return False
+#split minChar
+splitMin = lst.split()
+print(splitMin)
 
-valid_pass()
+#split maxChar
+
+#split char
